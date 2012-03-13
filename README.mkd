@@ -1,0 +1,18 @@
+Pioneer Factions
+================
+
+This is a proof of concept for a system simulating the expansions and
+interactions of factions for the pioneer game. It is based on the concept of
+problems that every faction tries to solve (or not !). Every system in a
+faction reports its problem, thus queuing new issues to be resolved at the
+faction level.
+
+Ideally, each system government type would have its own criteria to report
+problems, but also to accept tasks from the faction. A colonial governments (a
+governor nominated by the capital system) would accept every little request,
+but for any problem would request the help of the faction instead of relying
+on its own resources. Some would be more independent, or would even lie to
+gain resources (the military dictatures come to mind).
+
+Each issue has its own set of requirements, which, if not met, would create
+new issues, thus creating a tree of issues to be resolved.
